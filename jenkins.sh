@@ -11,7 +11,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 sudo ufw allow 8080
 sudo ufw status
-echo "check if the jenkins is working using public ip :8080"
+echo "check if the jenkins is working using public ip:8080"
 sudo chmod -R 777 /var/lib/jenkins
 echo "change the inbound rules in securitygroups"
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
